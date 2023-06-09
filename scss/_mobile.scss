@@ -2,11 +2,12 @@
     background-image: url(../img/фон2\ 1.svg);
     height: 1186px;
 
+
     .review {
         text-align: center;
         color: #F4BDBD;
         font-family: 'Syncopate';
-        height: 34.97px;
+        padding-top: 34.97px;
 
         font-style: normal;
         font-weight: 700;
@@ -22,6 +23,18 @@
             width: 242.52px;
             margin-left: auto;
             margin-right: auto;
+        
+            .biography-1{
+               background: #FDAEAE;
+               box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+               transform: matrix(1, -0.02, 0.02, 1, 0, 0);
+
+
+               width: 286.05px;
+               height: 153.78px;
+            
+            }
+        
         }
 
         .people-2 {
@@ -33,17 +46,44 @@
                 display: flex;
                 justify-content: center;
             }
+
+            .biography-2{
+                background: #EA1B1B;
+                box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+                transform: matrix(1, -0.02, 0.02, 1, 0, 0);
+                
+                width: 286.05px;
+                height: 153.78px;
+             }
         }
 
 
         h1 {
             text-align: center;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 21px;
         }
 
         p {
             text-align: center;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px;
         }
 
+    hr{
+        color: black;
+        height: 2px;
+        width: 189.17px;
+        background: black;
+        border: none;
+    }
+    
     }
 
 
@@ -56,12 +96,15 @@
 .text {
     background-image: url(../img/Rectangle\ 30.png);
     height: 703.06px;
+    padding-top: 69.91px;
+
+
 
     h1 {
         width: 321px;
         height: 220.7px;
         margin-left: 28px;
-        
+
         font-family: 'Syncopate';
         font-style: normal;
         font-weight: 700;
@@ -75,7 +118,7 @@
         width: 259px;
         height: 39.95px;
         margin-left: 27px;
-        
+
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -84,7 +127,7 @@
         color: #E8D6D6;
     }
 
-    button{
+    button {
         border: 0px solid black;
         border-radius: 27px;
         width: 194px;
@@ -101,5 +144,13 @@
 
     }
 
+    hr {
+        color: black;
+        height: 5px;
+        width: 259px;
+        margin-left: 28px;
+        background: black;
+        border: none;
+    }
 
 }
